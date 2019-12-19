@@ -131,3 +131,6 @@ package.xml
 **/pages/UnderConstruction.page-meta.xml
 **/staticresources/SiteSamples
 **/staticresources/SiteSamples.resource-meta.xml
+#**/objects/Order__c/fields/Account__C.field-meta.xml
+#**/objects/Order__c/Order__c.object-meta.xml
+/force-app/main/default/navigationMenus/Default_Navigation.navigationMenu-meta.xml
