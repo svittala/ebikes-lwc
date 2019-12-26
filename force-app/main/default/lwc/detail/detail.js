@@ -1,9 +1,7 @@
 import { LightningElement, track, api } from 'lwc';
 import { bikes } from 'c/data';
 
-
 export default class Detail extends LightningElement {
-
     // Ensure changes are reactive when product is updated
     @track product;
 
@@ -16,9 +14,9 @@ export default class Detail extends LightningElement {
         this._productId = value;
         this.product = bikes.find(bike => bike.fields.Id.value === value);
     }
-    
+
     // getter for productId
-    @api get productId(){
+    @api get productId() {
         return this._productId;
     }
 }
