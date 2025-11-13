@@ -26,9 +26,11 @@
         "npm": ">= 6.5.0"
     },
     "devDependencies": {
-        "@salesforce/eslint-config-lwc": "^0.4.0",
-        "@salesforce/sfdx-lwc-jest": "^0.6.2",
-        "eslint": "^5.16.0",
+        "@lwc/eslint-plugin-lwc": "^0.8.0",
+        "@salesforce/eslint-config-lwc": "^4.1.1",
+        "@salesforce/sfdx-lwc-jest": "^7.1.2",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^9.38.0",
         "husky": "^3.1.0",
         "lint-staged": "^9.5.0",
         "prettier": "^1.19.1",
@@ -50,5 +52,8 @@
         "*": [
             "git add"
         ]
+    },
+    "dependencies": {
+        "sfdxdatadicgen": "^0.1.2"
     }
 }
